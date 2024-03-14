@@ -43,11 +43,12 @@ label{
     border-radius: 20px;
 }
 .buttonContainer{
-    width: 90%;
+    width: 55%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1em;
+    flex-wrap: wrap;
 }
 button{
     padding:12px 25px;
