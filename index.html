@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="quoteicon.png" type="image/x-icon">
+    <title>Quote Generator</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Quote Generator</h1>
+        <div class="quoteContainer">
+            <blockquote id="quote">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat doloremque sed
+                beatae? Dolores, voluptatibus ratione commodi molestias, debitis eligendi voluptas obcaecati quaerat ut
+                ducimus officiis libero, voluptate quis sapiente architecto?</blockquote>
+            <cite id="author">- Author</cite>
+        </div>
+        <div class="inputContainer">
+            <label for="quote-categories">Choose a category</label>
+            <input type="text" id="quote-categories" name="quote-categories" list="category-list" value="inspirational">
+            <datalist id="category-list">
+                <option value="age">
+                <option value="alone">
+                <option value="amazing">
+                <option value="anger">
+                <option value="architecture">
+                <option value="art">
+                <option value="attitude">
+                <option value="beauty">
+                <option value="best">
+                <option value="birthday">
+                <option value="business">
+                <option value="car">
+                <option value="change">
+                <option value="communication">
+                <option value="computers">
+                <option value="cool">
+                <option value="courage">
+                <option value="dad">
+                <option value="dating">
+                <option value="death">
+                <option value="design">
+                <option value="dreams">
+                <option value="education">
+                <option value="environmental">
+                <option value="equality">
+                <option value="experience">
+                <option value="failure">
+                <option value="faith">
+                <option value="family">
+                <option value="famous">
+                <option value="fear">
+                <option value="fitness">
+                <option value="food">
+                <option value="forgiveness">
+                <option value="freedom">
+                <option value="friendship">
+                <option value="funny">
+                <option value="future">
+                <option value="god">
+                <option value="good">
+                <option value="government">
+                <option value="graduation">
+                <option value="great">
+                <option value="happiness">
+                <option value="health">
+                <option value="history">
+                <option value="home">
+                <option value="hope">
+                <option value="humor">
+                <option value="imagination">
+                <option value="inspirational">
+                <option value="intelligence">
+                <option value="jealousy">
+                <option value="knowledge">
+                <option value="leadership">
+                <option value="learning">
+                <option value="legal">
+                <option value="life">
+                <option value="love">
+                <option value="marriage">
+                <option value="medical">
+                <option value="men">
+                <option value="mom">
+                <option value="money">
+                <option value="morning">
+                <option value="movies">
+                <option value="success">
+            </datalist>
+        </div>
+        <div class="buttonContainer">
+            <button id="generate" onclick="generateQuote()">Generate</button>
+            <button id="clear" onclick="clearInput()">Clear</button>
+            <button id="copy" onclick="copyQuote()">Copy</button>
+            <button id="tweet" onclick="tweetQuote()">Tweet <img src="twitter.png"></button>
+            <!-- <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Hello%20world" target="_blank">
+                Tweet</a> -->
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
